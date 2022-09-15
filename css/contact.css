@@ -1,0 +1,165 @@
+.contactForm {
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    height: 77vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contactForm h1 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Playfair+Display:wght@600&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    position: absolute;
+        background-color: rgb(168, 165, 165);
+        width: 250px;
+        font-family: 'Fira Sans', sans-serif;
+        height: 100vh;
+        transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 49px;
+    font-size: 20px;
+}
+
+.sidebar nav ul li {
+    list-style: none;
+    padding: 26px 0px;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hamburger {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.cross {
+    margin-left: 187px;
+}
+
+.main {
+    width: 90vw;
+    /* background-color: red; */
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.contactForm form .mb-3 {
+    margin: 11px 0px
+}
+
+.mb-3 .form-label {
+    font-size: 30px;
+}
+
+.mb-3 input {
+    padding: 5px 0px;
+}
+
+.mb3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.mb3 input {
+    width: 20vw;
+    border: 2px solid black;
+}
+
+.btn {
+    border-radius: 13px;
+    padding: 4px 8px;
+    background-color: dodgerblue;
+    color: white;
+    margin: 0px 2px;
+    cursor: pointer;
+}
+
+form .btn:hover {
+    color: dodgerblue;
+    background-color: white;
+}
+@media only screen and (max-width:1555px) {
+    .sidebar {
+        height: 105vh;
+        width: 140px;
+    }
+
+    .sidebar nav {
+        padding: 3px 20px;
+    }
+
+    .infoContainer {
+        flex-direction: column-reverse;
+    }
+
+    .infoContainer .devInfo {
+        text-align: center;
+    }
+
+    .infoContainer .devPic {
+        text-align: center;
+
+    }
+
+    .infoContainer .devPic img {
+        margin-top: 278px;
+    }
+
+    .hello {
+        font-size: 45px;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .about {
+        font-size: 20px;
+    }
+
+    .moreAbout {
+        font-size: 15px;
+    }
+
+    .cross {
+        margin-left: 103px;
+        margin-top: 10px;
+    }
+         .contactForm form {
+             justify-content: center;
+             display: flex;
+             align-items: center;
+             flex-direction: column;
+         }
+                 .mb3 input {
+                     width: 55vw;}
+                     #emailHelp
+                        {
+                                text-align: center;
+                                margin-left: 16px;
+                     }
+}
